@@ -6,6 +6,7 @@
 #
 ################################################################################
 
-ln -rs ~/.dotfiles/nvim ~/.config/nvim
-ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
-echo "source ~/.fancy-bash-promt.sh" >> ~/.bashrc
+#ln -rs ~/.dotfiles/nvim ~/.config/nvim
+#ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
+cp ~/.dotfiles/.fancy-bash-prompt.sh ~/.fancy-bash-prompt.sh
+echo "source ~/.fancy-bash-prompt.sh" >> ~/.bashrc
